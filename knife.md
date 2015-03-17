@@ -21,7 +21,7 @@ This will delete the EC2 Instance and purge the node/client from the chef server
 
 `knife ec2 server delete i-xxxxxxxx -P -N test-server-1`
 
-Exmplained...
+Explained...
 
 `knife ec2 server delete <Instance ID> -P -N <Chef Node Name>`
 
